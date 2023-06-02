@@ -7,7 +7,6 @@ This code was written in JavaScript in order to generate a random password.  The
 
 
 ## Usage
-
 https://anthonydipopolo.github.io/random-password-generator-js/
   
 ![website screenshot](./assets/Screen%20Shot%202023-06-02%20at%204.17.07%20PM.png "password generator")
