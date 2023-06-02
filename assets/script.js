@@ -26,7 +26,11 @@ function writePassword() {
   includesSpecial = confirm('Would you like special characters?');
 
  
-
+ 
+  if (!includeLowerCase && !includeUpperCase && !includesSpecial && !includeNumbers){
+    alert ("You must select atleast one character type");
+    return;
+  }
   if (includeLowerCase) {
     combine = combine.concat(lowercase);
   }
