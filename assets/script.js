@@ -26,7 +26,11 @@ function writePassword() {
   includesSpecial = confirm('Would you like special characters?');
 
  
- 
+  if (amount < 8 || amount > 128){
+    alert("Amount of characters must be atleast 8 and less than 128");
+    return;
+
+  } 
   if (!includeLowerCase && !includeUpperCase && !includesSpecial && !includeNumbers){
     alert ("You must select atleast one character type");
     return;
